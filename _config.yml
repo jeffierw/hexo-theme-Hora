@@ -1,0 +1,24 @@
+
+# html lang
+language: en
+
+# main menu navigation
+menu:
+  Home: /
+  About: /about
+  Contact: /contact
+  Archives: /archives
+
+# stylesheets loaded in the <head>
+stylesheets:
+- /css/Hora.css
+
+# scripts loaded in the end of the body
+scripts:
+- /js/Hora.js
+
+# 底部字数统计，需安装 hexo-wordcount 插件
+# 安装命令 npm install hexo-wordcount，然后启用为 enabled
+footer_wordcount: enabled
+
+livere_uid: MTAyMC80MzM4MC8xOTkyMQ==
