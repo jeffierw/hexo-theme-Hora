@@ -6,8 +6,10 @@
     <% var year = item.date.year(); %>
     <% if (last != year){ %>
     <% last = year; %>
+    
     <div class="recent-post-year-title">
-      <h2 class="recent-post-year"><%=year%></h2>
+
+      <h2 class="recent-post-year"><i class="fa fa-book fa-book-icon" aria-hidden="true"></i><%=year%></h2>
     </div>
     <% } %>
     <div class="recent-post-items">

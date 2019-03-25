@@ -638,9 +638,15 @@ article {
 .footer-author {
   margin: 0 2px;
 }
+.fa-book-icon{
+  color: #6e6c6c;
+  margin-right: 5px;
+  padding-bottom: 4px;
+  vertical-align: middle;
+}
 
 .footer-icon {
-  color: #f8c9cb;
+  color: #81cdc1;
 }
 
 .footer-wordcount {

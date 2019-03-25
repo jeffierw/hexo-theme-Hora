@@ -3,7 +3,7 @@
   <% page.posts.each(function(post){ %>
   <% var year = post.date.year() %>
   <% if(lastyear !== year){ %>
-  <h4 class="year"><%= year %></h4>
+  <h2 class="year"> <i class="fa fa-book fa-book-icon" aria-hidden="true"></i><%= year %></h2>
   <% lastyear = year %>
   <% } %>
   <div class="archive_item">
@@ -12,7 +12,5 @@
     <span class="date"><%= post.date.format('YYYY-MM-DD') %></span>
   </div>
   <% }) %>
-  <div class="pagination">
-    <%- paginator({ total: Math.ceil(site.posts.length / config.per_page)}) %>
-  </div>
+ 
 </div>
